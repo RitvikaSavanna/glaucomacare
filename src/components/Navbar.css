@@ -36,11 +36,6 @@
   color: var(--brown);
 }
 
-.navbar-auth {
-  display: flex;
-  gap: 10px;
-}
-
 .navbar-toggle {
   display: none;
   flex-direction: column;
@@ -78,10 +73,5 @@
   
   .navbar-menu.active {
     left: 0;
-  }
-  
-  .navbar-auth {
-    flex-direction: column;
-    gap: 15px;
   }
 }

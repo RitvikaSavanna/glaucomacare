@@ -10,11 +10,10 @@ const Home = () => {
       <section className="hero">
         <div className="container">
           <div className="hero-content">
-            <h1>Early Detection Saves Vision</h1>
-            <p>GlaucomaCare provides resources, prediction tools, and information to help in the fight against glaucoma</p>
+            <h1>Early Glaucoma Detection Saves Vision</h1>
+            <p>Our AI-powered system helps detect glaucoma severity from retinal images, enabling early intervention and treatment.</p>
             <div className="hero-buttons">
-              <Link to="/prediction" className="btn btn-primary">Try Our Prediction Tool</Link>
-              <Link to="/tutorials" className="btn btn-outline">Learn More</Link>
+              <Link to="/prediction" className="btn btn-primary">Check Severity Now</Link>
             </div>
           </div>
         </div>
@@ -23,46 +22,27 @@ const Home = () => {
       {/* Features Section */}
       <section className="features">
         <div className="container">
-          <h2 className="section-title">How We Can Help</h2>
+          <h2 className="section-title">How It Works</h2>
           <div className="features-grid">
             <div className="feature-card">
-              <div className="feature-icon">🔍</div>
-              <h3>AI-Powered Prediction</h3>
-              <p>Our advanced deep learning model can help identify different types of glaucoma from retinal images.</p>
+              <div className="feature-icon">📸</div>
+              <h3>Upload Image</h3>
+              <p>Upload a clear retinal image for analysis.</p>
             </div>
             <div className="feature-card">
-              <div className="feature-icon">📚</div>
-              <h3>Educational Resources</h3>
-              <p>Comprehensive tutorials and information about glaucoma types, symptoms, and treatments.</p>
+              <div className="feature-icon">🤖</div>
+              <h3>AI Analysis</h3>
+              <p>Our advanced deep learning model analyzes the image.</p>
             </div>
             <div className="feature-card">
-              <div className="feature-icon">🏥</div>
-              <h3>Medical Directory</h3>
-              <p>Find specialized hospitals and clinics for glaucoma treatment and immediate care.</p>
+              <div className="feature-icon">📊</div>
+              <h3>Get Results</h3>
+              <p>Receive detailed severity assessment and recommendations.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="stats">
-        <div className="container">
-          <div className="stats-grid">
-            <div className="stat">
-              <h3>60+ Million</h3>
-              <p>People affected by glaucoma worldwide</p>
-            </div>
-            <div className="stat">
-              <h3>95%+</h3>
-              <p>Accuracy of our prediction model</p>
-            </div>
-            <div className="stat">
-              <h3>1000+</h3>
-              <p>Medical resources available</p>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
